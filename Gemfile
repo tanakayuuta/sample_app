@@ -8,6 +8,7 @@ gem 'sprockets', '2.11.0'
 gem 'faker', '1.1.2'
 gem 'will_paginate', '3.0.4'
 gem 'will_paginate-bootstrap', '1.0.1'
+gem "paperclip"
 
 group :development do
   gem 'sqlite3', '1.3.9'

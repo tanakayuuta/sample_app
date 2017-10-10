@@ -1,4 +1,6 @@
 SampleApp::Application.routes.draw do
+  resources :pictures
+
   devise_for :users, :controllers => {
     :registrations => "registrations"
   }
