@@ -20,18 +20,18 @@
   </div>
   
 <% else %>
+
+
   <div class="center jumbotron">
-    <h1>Welcome to the Sample App</h1>
+    <h1>情報を食べるサイト。</h1>
 
     <h2>
-    This is the home page for the
-      <a href="http://railstutorial.org/">Ruby on Rails Tutorial</a>
-    sample application.
+    今日の朝食、素敵なランチ、特別なディナー。画像をつけて人にシェアしよう。
     </h2>
 
-    <%= link_to "Sign up now!", new_user_registration_path,
+    <%= link_to "ユーザー新規登録はこちら！", new_user_registration_path,
                                 class: "btn btn-lg btn-primary" %>
   </div>
+  
 
-  <%= link_to image_tag("rails.png", alt: "Rails"), 'http://rubyonrails.org/' %>
 <% end %>

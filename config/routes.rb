@@ -1,4 +1,5 @@
 SampleApp::Application.routes.draw do
+  get "home/index"
   resources :pictures
 
   devise_for :users, :controllers => {
@@ -12,6 +13,7 @@ SampleApp::Application.routes.draw do
   
   
   root 'static_pages#home'
+  
  
  
   resources :microposts,    only: [:create, :destroy]
